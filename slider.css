@@ -88,8 +88,14 @@
 	cursor: grab;
 }
 
-.slidetangle:active {
-	cursor: grabbing;
+@media (min-width: 481px) {
+	.slidetangle:active {
+		cursor: grabbing;
+	}
+
+	.slidetangle:hover {
+		background-position: 0 0;
+	}
 }
 
 @media (max-width: 480px) {
@@ -99,10 +105,6 @@
 		hyphens: manual;
 		width: 80%;
 	}
-}
-
-.slidetangle:hover {
-	background-position: 0 0;
 }
 
 /* .slider > a {
