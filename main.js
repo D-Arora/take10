@@ -1,4 +1,7 @@
-if(window.innerWidth > 480) {
+// const mediaQuery = window.matchMedia('(min-width: 481px)')
+
+// if(mediaQuery.matches) {
+	console.log('desktop scrolling');
 	const slider = document.querySelector(".slides");
 	const preventClick = (e) => {
 	e.preventDefault();
@@ -44,4 +47,4 @@ if(window.innerWidth > 480) {
 	slider.scrollLeft = scrollLeft - walk;
 	console.log(walk);
 	});
-}
+// }
