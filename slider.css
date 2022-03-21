@@ -1,154 +1,154 @@
 .slider {
-	width: 100%;
-	text-align: left;
-	overflow: hidden;
+	width: 100%!important;
+	text-align: left!important;
+	overflow: hidden!important;
 
-	position: relative;
+	position: relative!important;
 	
-	/* height: 10em; */
-	display: block;
-	margin: 0%;
+	/* height: 10em!important; */
+	display: block!important;
+	margin: 0%!important;
 
-	/* cursor: grab; */
+	/* cursor: grab!important; */
 }
 
 /* .slider:active {
-	cursor: grabbing;
+	cursor: grabbing!important;
 } */
 
 .slides {
-	display: flex;
-	font-family: MarkPro-Bold;
-	color: #f1f4f6;
+	display: flex!important;
+	font-family: MarkPro-Bold!important;
+	color: #f1f4f6!important;
 
-	overflow-x: scroll;
-	scroll-snap-type: x mandatory;
+	overflow-x: scroll!important;
+	scroll-snap-type: x mandatory!important;
 
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth!important;
+	-webkit-overflow-scrolling: touch!important;
 
 	/*
-	scroll-snap-points-x: repeat(300px);
-	scroll-snap-type: mandatory;
+	scroll-snap-points-x: repeat(300px)!important;
+	scroll-snap-type: mandatory!important;
 	*/
-	scrollbar-color: #fecb31 rgba(0,0,0,0);
-	/* cursor: grab; */
-	user-select: none;
-	position: relative;
+	scrollbar-color: #fecb31 rgba(0,0,0,0)!important;
+	/* cursor: grab!important; */
+	user-select: none!important;
+	position: relative!important;
 
-	height: 100%;
-	padding-left: 2em;
-	/* width: 400%; */
+	height: 100%!important;
+	padding-left: 2em!important;
+	/* width: 400%!important; */
 }
 
 .slides::-webkit-scrollbar {
-	width: 0.4em;
-	height: 0.4em;
+	width: 0.4em!important;
+	height: 0.4em!important;
 }
 .slides::-webkit-scrollbar-thumb {
-	background: #fecb31;
-	border-radius: 0.4em;
+	background: #fecb31!important;
+	border-radius: 0.4em!important;
 }
 .slides::-webkit-scrollbar-track {
-	background: transparent;
+	background: transparent!important;
 }
 
 .slidetangle {
-	scroll-snap-align: start;
-	flex-shrink: 0;
-	width: auto;
-	height: auto;
-	margin: 2%;
-	border-radius: 0.8em;
-	/* background: linear-gradient(#00a3ad, #007980); */
-	background: linear-gradient(#006469,#00a3ad);
-	position: relative;
+	scroll-snap-align: start!important;
+	flex-shrink: 0!important;
+	width: auto!important;
+	height: auto!important;
+	margin: 2%!important;
+	border-radius: 0.8em!important;
+	/* background: linear-gradient(#00a3ad, #007980)!important; */
+	background: linear-gradient(#006469,#00a3ad)!important;
+	position: relative!important;
 
-	background-size: 100% 200%;
-	background-position: 0 100%;
-	-webkit-transition: background 0.5s ease-out;  
-    -moz-transition: background 0.5s ease-out;  
-    -o-transition: background 0.5s ease-out;  
-    transition: background 0.5s ease-out;
+	background-size: 100% 200%!important;
+	background-position: 0 100%!important;
+	-webkit-transition: background 0.5s ease-out!important;  
+    -moz-transition: background 0.5s ease-out!important;  
+    -o-transition: background 0.5s ease-out!important;  
+    transition: background 0.5s ease-out!important;
 	
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding: 0em 0.8em 0em 0.8em;
-	font-size: 1.4em;
+	display: flex!important;
+	justify-content: left!important;
+	align-items: center!important;
+	padding: 0em 0.8em 0em 0.8em!important;
+	font-size: 1.4em!important;
 	
-	cursor: grab;
+	cursor: grab!important;
 }
 
 @media (min-width: 481px) {
 	.slider {
-		background: url('./assets/sand.svg');
-		background-size: 100%;
-		background-repeat: no-repeat;
+		background: url('./assets/sand.svg')!important;
+		background-size: 100%!important;
+		background-repeat: no-repeat!important;
 	}
 
 	.slides {
-		pointer-events: none;
-		overflow: hidden;
-		padding-left: 500px;
+		pointer-events: none!important;
+		overflow: hidden!important;
+		padding-left: 500px!important;
 	}
 	
 	.slidetangle {
-		pointer-events: auto;
+		pointer-events: auto!important;
 	}
 	
 	.slidetangle:active {
-		cursor: grabbing;
+		cursor: grabbing!important;
 	}
 	
 	.slidetangle:hover {
-		background-position: 0 0;
+		background-position: 0 0!important;
 	}
 }
 
 @media (max-width: 480px) {
 	.slider {
-		background: url('./assets/sand.svg');
-		background-repeat: no-repeat;
-		/* background-size: 100%; */
-		box-shadow: 5% 5% #333333;	
+		background: url('./assets/sand.svg')!important;
+		background-repeat: no-repeat!important;
+		/* background-size: 100%!important; */
+		box-shadow: 5% 5% #333333!important;	
 	}
 
 	.slidetangle {
-		font-size: 1.2em;
-		overflow-wrap: break-word;
-		hyphens: manual;
-		width: 80%;
-		overflow-x: hidden;
+		font-size: 1.2em!important;
+		overflow-wrap: break-word!important;
+		hyphens: manual!important;
+		width: 100%!important;
+		overflow-x: hidden!important;
 	}
 }
 
 /* .slider > a {
-	display: inline-flex;
-	width: 1.5rem;
-	height: 1.5rem;
-	background: white;
-	text-decoration: none;
-	align-items: left;
-	justify-content: left;
-	border-radius: 50%;
-	margin: 0 0 0.5rem 0;
-	position: relative;
+	display: inline-flex!important;
+	width: 1.5rem!important;
+	height: 1.5rem!important;
+	background: white!important;
+	text-decoration: none!important;
+	align-items: left!important;
+	justify-content: left!important;
+	border-radius: 50%!important;
+	margin: 0 0 0.5rem 0!important;
+	position: relative!important;
 }
 .slider > a:active {
-	top: 1px;
+	top: 1px!important;
 }
 .slider > a:focus {
-	background: #000;
+	background: #000!important;
 } */
 
 /* Don't need button navigation */
 /* @supports (scroll-snap-type) {
 	.slider > a {
-		display: none;
+		display: none!important;
 	}
 } */
 
 /* #slide-1, #slide-2, #slide-3, #slide-4, #slide-5 {
-	cursor: grab;
+	cursor: grab!important;
 } */
