@@ -86,19 +86,19 @@
 	.slides {
 		pointer-events: none;
 	}
-
+	
 	.slidetangle {
 		pointer-events: auto;
 	}
-
+	
 	.slidetangle:active {
 		cursor: grabbing;
 	}
-
+	
 	.slidetangle:hover {
 		background-position: 0 0;
 	}
-
+	
 	.slides {
 		overflow: hidden;
 	}
@@ -110,7 +110,7 @@
 		overflow-wrap: break-word;
 		hyphens: manual;
 		width: 80%;
-		overflow: scroll;
+		overflow-x: hidden;
 	}
 }
 
