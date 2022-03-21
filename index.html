@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Optus | Take 10</title>
 	<link rel="stylesheet" href="./styles.css">
-	<script type="text/javascript" src="./main.js"></script>
+	<link rel="stylesheet" href="./slider.css">
 	
 	<link rel="preload" as="font" href="https://smb.optus.com.au/opfiles/Shop/Consumer/Assets/AllFonts/MarkPro.woff" crossorigin>
 	<link rel="preload" as="font" href="https://smb.optus.com.au/opfiles/Shop/Consumer/Assets/AllFonts/MarkPro-Bold.woff" crossorigin>
@@ -38,20 +38,107 @@
 	<div id="content">
 		<div id="podcast">
 			<div id="text">
-				<h2>The Say &lsquo;yes&rsquo; to you Podcast</h2>
+				<h2>The Say &lsquo;Yes&rsquo; to you Podcast</h2>
 				<p>
-					Episode 1 of the <span>"Say &lsquo;yes&rsquo; to you!"</span> podcast is already out now!<br><br>
-					Join our host Kaylah James as she speaks with special guest Kristy Hand about the struggles, accomplishments and experiences of motherhood in today's world.<br><br>
-					<span>Reviews</span><br>
-
+					Episode 1 of the <span>&ldquo;Say &lsquo;Yes&rsquo; to you!&rdquo;</span> podcast is already out now!<br><br>
+					Join our host Kaylah James as she speaks with special guest Kristy Hand about the struggles, accomplishments and experiences of motherhood in today's world.<br>
+					<p id="reviews">Reviews</p>
+					&ldquo;I think this podcast is beneficial as it allows us as women to get together and <span class="quote">speak openly and more comfortably about things in our lives we would usually shy away from</span>. In my opinion having something set up like this would provide women more resources and tools to better themselves&rdquo;
+					<br><br>
+					&ldquo;After listening to the pilot podcast I think this will benefit my wellbeing by breaking up my day and taking me out of my headspace with the <span class="quote">and experiences of amazing women</span>&rdquo;
+					<br><br>
+					&ldquo;At different stages of my life, my motivations are different. <span class="quote">Sharing successes by everyday people is great to relate to</span>&rdquo;
 				</p>
 			</div>
 			<div id="audio">
-				<img src="./assets/Episode1_Host+Guest.png" alt="">
+				<img src="./assets/Episode1_Host+Guest.png" alt="Guest Kristy Hand (Left) and host Kaylah James (Right) on set">
 				<audio controls>
 					<source src="./assets/Podcast.mp3" type="audio/mpeg">
 					Your browser does not support the audio element.
 				</audio> 
+			</div>
+		</div>
+
+		<h2>50 Methods to Destress</h2>
+		<div class="slider">
+		
+			<!-- <a href="#slide-1">1</a>
+			<a href="#slide-2">2</a>
+			<a href="#slide-3">3</a>
+			<a href="#slide-4">4</a>
+			<a href="#slide-5">5</a> -->
+		
+			<div class="slides">
+				<div class="slidetangle" id="slide-1">
+					<ol>
+						<li>Quick Massage (shoulders, neck)</li>
+						<li>Run </li>
+						<li>Brisk Walk </li>
+						<li>Short podcasts</li>
+						<li>Coffee / Sip some tea  </li>
+						<li>Make a Green smoothie</li>
+						<li>Quick workout </li>
+						<li>Yoga </li>
+						<li>Quick Pilate </li>
+						<li>Close your eyes, breathe, meditate</li>
+					</ol>
+				</div>
+				<div class="slidetangle" id="slide-2">
+					<ol start="11">
+						<li>List to calm music</li>
+						<li>Colouring </li>
+						<li>Doodling</li>
+						<li>Simple stretches from your chair</li>
+						<li>Listen to soothing / calm music</li>
+						<li>Walk by the beach / Park </li>
+						<li>Write my affirmations</li>
+						<li>Extra time with my puppy </li>
+						<li>Chat with family overseas / Friends </li>
+						<li>Reflections/Journal/ Gratitude</li>
+					</ol>
+				</div>
+				<div class="slidetangle" id="slide-3">
+					<ol start="21">
+						<li>Wardrobe refresh</li>
+						<li>Self care – face pack</li>
+						<li>Brain Dump to recharge</li>
+						<li>Care for  garden / Water the plants</li>
+						<li>Meal plans for the week	</li>
+						<li>Reorganising my kitchen racks / wardrobe</li>
+						<li>Short nap with music in my ears</li>
+						<li>Take dog for walk & listen to podcast</li>
+						<li>On couch watching TV</li>
+						<li>Calming ASMR TikToks</li>
+					</ol>
+				</div>
+				<div class="slidetangle" id="slide-4">
+					<ol start="31">
+						<li>Drive near the water to relax</li>
+						<li>Quick manicure or pedicure </li>
+						<li>Unwind with friends – chat</li>
+						<li>Mamamia/Comedy podcasts</li>
+						<li>Read blogs</li>
+						<li>Travel blogs</li>
+						<li>Reorganise "My" to do list</li>
+						<li>Clear my personal mailbox</li>
+						<li>Capture moments – candid shots</li>
+						<li>Blending essential oils</li>
+					</ol>
+				</div>
+				<div class="slidetangle" id="slide-5">
+					<ol start="41">
+						<li>Listen to favourite music playlist</li>
+						<li>Reading</li>
+						<li>Capture moments – poems , picture snaps</li>
+						<li>Aromatherapy & relax on couch</li>
+						<li>Cooking blogs</li>
+						<li>Online window shopping</li>
+						<li>Read / watch News highlights / stocks</li>
+						<li>Indulge in sweets, ice cream galore</li>
+						<li>Weights training</li>
+						<li>Time with pets</li>
+					</ol>
+				</div>
 			</div>
 		</div>
 
@@ -103,5 +190,10 @@
 			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4WYpdgoIcn6?utm_source=generator" width="100%" height="200em" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 		</div>
 	</div>
+	<div id="footer">
+		<div class="sand"></div>
+	</div>
+
+	<script src="main.js"></script>
 </body>
 </html>

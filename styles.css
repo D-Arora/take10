@@ -70,7 +70,7 @@ h2 {
 @media (min-width: 481px) {
 	#content {
 		width: 80%;
-		margin-top: 24vh;
+		margin-top: 28vh;
 		margin-bottom: 3em;
 	}
 
@@ -101,7 +101,6 @@ h2 {
 	#content {
 		width: 75%;
 		margin-top: 6em;
-		margin-bottom: 2em;
 	}
 
 	#playlists {
@@ -124,6 +123,16 @@ h2 {
 #text p span {
 	/* font-style: italic; */
 	font-family: MarkPro-Bold;
+}
+
+.quote {
+	font-family: MarkPro-Bold;
+	color: #00a3ad;
+}
+
+#reviews {
+	font-family: MarkPro-Bold;
+	font-size: 1.4em;
 }
 
 #playlists {
@@ -153,7 +162,7 @@ h2 {
 
 	#audio {
 		align-self: stretch;
-		width: 40vw;
+		width: 50vw;
 		padding: 2%;
 	}
 
@@ -195,4 +204,14 @@ h2 {
 		width: 100%;
 		border-radius: 0.8em;
 	}
+}
+
+.sand {
+	height: 8em;
+	background: url('./assets/sand.svg');
+	background-size: 100%;
+	background-repeat: repeat-x;
+	display: block;
+	margin: 0%;
+	transform: rotate(180deg);
 }
