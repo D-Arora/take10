@@ -6,9 +6,6 @@
 	position: relative;
 	
 	/* height: 10em; */
-	background: url('./assets/sand.svg');
-	background-size: 100%;
-	background-repeat: repeat-x;
 	display: block;
 	margin: 0%;
 
@@ -40,6 +37,7 @@
 	position: relative;
 
 	height: 100%;
+	padding-left: 2em;
 	/* width: 400%; */
 }
 
@@ -83,8 +81,16 @@
 }
 
 @media (min-width: 481px) {
+	.slider {
+		background: url('./assets/sand.svg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
 	.slides {
 		pointer-events: none;
+		overflow: hidden;
+		padding-left: 500px;
 	}
 	
 	.slidetangle {
@@ -98,14 +104,17 @@
 	.slidetangle:hover {
 		background-position: 0 0;
 	}
-	
-	.slides {
-		overflow: hidden;
-	}
 }
 
 @media (max-width: 480px) {
-	.slides > div {
+	.slider {
+		background: url('./assets/sand.svg');
+		background-repeat: no-repeat;
+		/* background-size: 100%; */
+		box-shadow: 5% 5% #333333;	
+	}
+
+	.slidetangle {
 		font-size: 1.2em;
 		overflow-wrap: break-word;
 		hyphens: manual;

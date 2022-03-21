@@ -10,7 +10,7 @@ h1, h2, h3, h4, b, strong {
 	font-family:MarkPro-Bold;
 }
 
-a {
+#title a {
 	text-decoration: none;
 }
 
@@ -57,6 +57,16 @@ h1:hover #slash {
 
 h2 {
 	font-size: 2em;
+}
+
+h2 a {
+	transition: 0.25s ease-in;
+	color: #00a3ad;
+	text-decoration: solid #333333;
+}
+
+h2 a:hover {
+	color: #006469;
 }
 
 #content {
