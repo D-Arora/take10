@@ -1,0 +1,197 @@
+body {
+	font-family: MarkPro;
+	color: #333333;
+	padding: 0%;
+	margin: 0%;
+	background-color: #f1f4f6;
+}
+
+h1, h2, h3, h4, b, strong {
+	font-family:MarkPro-Bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+#header {
+	width: 100%;
+	margin: 0%;
+	position: fixed;
+	top: 0;
+}
+
+#title {
+	min-height: 30%;
+	padding: 2%;
+	padding-top: 3%;
+	background: #00a3ad;
+}
+
+#slash {
+	color: #fecb31;
+	transition: color .5s;
+}
+
+h1 {
+	color: #f1f4f6;
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+	font-size: 2.8em;
+	transition: color .5s;
+}
+
+h1:hover {
+	color: #fecb31;
+}
+
+h1:hover #slash {
+	color: #f1f4f6;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#content {
+	margin: auto;
+	padding: 0.1em 2em;
+	display: block;
+	background-color: #e3e9ec;
+	border-radius: 0.8em;
+}
+
+@media (min-width: 481px) {
+	#content {
+		width: 80%;
+		margin-top: 24vh;
+		margin-bottom: 3em;
+	}
+
+	.waves {
+		min-height: 4em;
+		background: url('./assets/waves.svg');
+		background-size: 100%;
+		background-repeat: repeat-x;
+		display: block;
+		margin: 0%;
+	}
+
+	#playlists-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.waves {
+		min-height: 4em;
+		background: url('./assets/waves_mobile.svg');
+		background-size: 100%;
+		background-repeat: repeat-x;
+		display: block;
+		margin: 0%;
+	}
+	
+	#content {
+		width: 75%;
+		margin-top: 6em;
+		margin-bottom: 2em;
+	}
+
+	#playlists {
+		display: none;
+	}
+
+	h1 {
+		font-size: 2.4em;
+	}
+
+	h2 {
+		font-size: 1.6em;
+	}
+
+	#text {
+		text-align: justify;
+	}
+}
+
+#text p span {
+	/* font-style: italic; */
+	font-family: MarkPro-Bold;
+}
+
+#playlists {
+	width: 100%;
+}
+
+#content iframe {
+	display: block;
+	margin: auto;
+	margin-bottom: 2%;
+}
+
+#content h2 span {
+	color: #00a3ad;
+}
+
+@media (min-width: 481px) {
+	#podcast {
+		display: flex;
+		align-items: center;
+	}
+
+	#text {
+		align-self: stretch;
+		min-width: 50%;
+	}
+
+	#audio {
+		align-self: stretch;
+		width: 40vw;
+		padding: 2%;
+	}
+
+	#audio img {
+		width: 100%;
+		border-radius: 0.8em;
+	}
+
+	#audio audio {
+		width: 100%;
+		border-radius: 0.8em;
+	}
+}
+
+@media (max-width: 480px) {
+	#podcast {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	#text {
+		align-self: stretch;
+		min-width: 100%;
+	}
+
+	#audio {
+		align-self: stretch;
+		width: 100%;
+		padding: 2%;
+	}
+
+	#audio img {
+		width: 100%;
+		border-radius: 0.8em;
+	}
+
+	#audio audio {
+		width: 100%;
+		border-radius: 0.8em;
+	}
+}
