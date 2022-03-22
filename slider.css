@@ -115,11 +115,12 @@
 	}
 
 	.slidetangle {
-		font-size: 1.2em!important;
-		overflow-wrap: break-word!important;
+		font-size: 1.1em!important;
 		hyphens: manual!important;
 		width: 100%!important;
-		overflow-x: hidden!important;
+		overflow-wrap: break-word!important;
+		word-break:break-word;
+		/* overflow-x: hidden!important; */
 	}
 }
 
